@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/mod_logo.png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="sim-slider-styles.css">
+    <script src="index.js"></script>
+    <title>NatsuLogue</title>
+</head>
+<body>
+        <div class="page" id="page1">
+            <img class="logo" src="assets/mod_logo.png" alt="logo">
+            <a href="#" class="button">Download</a>
+            <img class="arrow" src="assets/arrow.png" alt="arrow" onclick="document.getElementById('page2').scrollIntoView({ behavior: 'smooth' })">
+        </div>
+        <div class="page" id="page2">
+            <div class="desc">
+                <h3>Description</h3>
+                <br>
+                <p>Many fans of “Doki Doki Literature Club!” still want to spend more time with their favorite club members, beyond what DDLC+ can provide. Our mod, Natsulogue, will allow you to spend more time with the best character, Natsuki! At the moment our mod is still under development, but a lot of progress with the dialogue and game mechanics has already been made.
+                    Um... Oh, is there someone here? Would you like to talk with me? It’s boring being here all alone, so download these files! Even a dummy can do it. Don't keep me waiting...
+                </p>
+            </div>
+            <img class="screenshot" src="assets/screenshot.png" alt="screenshot">
+        </div>
+        <div class="page" id="page3">
+            <div class="logo_team">
+                <img src="assets/cupcake_logo.png" alt="logo">
+                <h1>CupCake Team</h1>
+            </div>
+            <div class="sim-slider">
+                <ul class="sim-slider-list">
+                    <li><img src="assets/slider_bg.png" alt="screen"></li> <!-- это экран -->
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/gensek.jpg" alt="gensek">
+                        <div class="slider-desc">
+                            <h1>GenSek</h1>
+                            <br>
+                            <p >The informal leader of the team, who tries to control everything that happens in it.
+                                Wants the mod to become the best, and tries to achieve this in practice through writing dialogues.<br><br>
+                                Strongly loves Natsuki and everything related to her. Future hikikomori. </p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/maks1mka.png" alt="error404">
+                        <div class="slider-desc">
+                            <h1>Error404</h1>
+                            <br>
+                            <p >Probably the most important coder. Created the core of the mod, for which he is very grateful.<br><br>
+                                Main feature: can not appear online for half a day, but suddenly make a huge commit at night.</p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/maks1mka.png" alt="maks1mka">
+                        <div class="slider-desc">
+                            <h1>MakS1mKa</h1>
+                            <br>
+                            <p>Usually in charge of code, but sometimes helps in other areas as well.<br><br>
+                                Cute, but denial it. Uses ArchLinux. He has a secretive nature. Loves Natsuki.</p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/nekolais.jpg" alt="nekolais">
+                        <div class="slider-desc">
+                            <h1>NekoLaiS</h1>
+                            <br>
+                            <p >The team's main funnyman. Sometimes his goofs turn into bugs, but he fixes them instantly. Coder,
+                                designer and just a sweetheart.<br><br>
+                                Loves to work. Work. WORK!</p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/spirtowochka.jpg" alt="spirtowochka">
+                        <div class="slider-desc">
+                            <h1>Spirtowochka</h1>
+                            <br>
+                            <p >An artist whose main duty is to draw Natsuki's sprites.<br><br>
+                                Loves drawing and Natsuki. Not much else to say.</p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/vincienty.png" alt="vincienty">
+                        <div class="slider-desc">
+                            <h1>Vincienty</h1>
+                            <br>
+                            <p >An artist whose main duty is to draw Natsuki's sprites.<br><br>
+                                Loves drawing and Natsuki. Not much else to say.</p>
+                        </div>
+                    </li>
+                    <li class="sim-slider-element">
+                        <img src="assets/avatars/cammila.jpeg" alt="camilla">
+                        <div class="slider-desc">
+                            <h1>CamilaTokisaki</h1>
+                            <br>
+                            <p >Came to the team last, but is already ready to help with the port of the mod to other operating systems.<br><br>
+                                Uses Hackintosh. Doesn't like publicity.</p>
+                        </div>
+                    </li>
+                </ul>
+                <img class="sim-slider-arrow-left" src="assets/arrow.png" alt="left">
+                <img class="sim-slider-arrow-right" src="assets/arrow.png" alt="right">
+                <div class="sim-slider-dots"></div>
+            </div>
+            <script>new Sim()</script>
+</body>
+</html>
