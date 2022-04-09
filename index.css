@@ -95,15 +95,15 @@
 
 .sim-slider-element {
     position: absolute;
-    top: 15%;
+    top: 17%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .sim-slider-element img {
     padding-right: 100px;
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
     border-radius: 360px;
 }
 
